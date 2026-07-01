@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        input { margin-bottom: 10px; }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div style="width: 500px">
+    <h2 style="text-align: center;">My Store</h2>
+    <table border="1" cellspacing="10" cellpadding="0">
+    </tr>
+
+        <tr>
+            <th>Ảnh sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá sản phẩm</th>
+        </tr>
+
+        <tr>
+            <td><img src="/Users/duongthan/Downloads/so-sanh-iphone-17-pro-va-17-pro-max-cover.jpg" alt="iPhone 17 Pro Max" style="width: 150px; height: 120px;"></td>
+            <td>iPhone 17 Pro Max</td>
+            <td>30.000.000đ</td>
+        </tr>
+
+        <tr>
+            <td><img src="/Users/duongthan/Downloads/bphone-pro.jpg" alt="" style="width: 150px; height: 120px;"></td>
+            <td>Bphone Pro</td>
+            <td>20.000.000đ</td>
+        </tr>
+
+        <tr>
+            <td><img src="/Users/duongthan/Downloads/galaxy-s24-ultra-highlights-kv.jpg" alt="Samsung Galaxy S24 Ultra" style="width: 150px; height: 120px;"></td>
+            <td>Samsung Galaxy S24 Ultra</td>
+            <td>25.000.000đ</td>
+        </tr>
+
+        <tr>
+            <td><img src="/Users/duongthan/Downloads/oppo-reno9-pro-plus.jpg" alt="" style="width: 150px; height: 120px;"></td>
+            <td>Oppo Reno9 Pro Plus</td>
+            <td>15.000.000đ</td>
+        </tr>
+
+        <tr>
+            <td><img src="/Users/duongthan/Downloads/realme-11-pro-plus.jpg" alt="" style="width: 150px; height: 120px;"></td>
+            <td>Realme 11 Pro Plus</td>
+            <td>10.000.000đ</td>
+        </tr>
+    </table>
+   </div>
+   <div>
+   <h2>Booking Form</h2>
+<form action="">
+    <label for="name">Name:</label>
+    <input style="margin-bottom: 10px;" type="text" id="name" name="name">
+    <br>
+    <label for="email">Email:</label>
+    <input style="margin-bottom: 10px;" type="email" id="email" name="email">
+    <br>
+    <label for="phone">Phone:</label>
+    <input style="margin-bottom: 10px;" type="tel" id="phone" name="phone">
+    <br>
+    <label for="date">Date:</label>
+    <input style="margin-bottom: 10px;" type="date" id="date" name="date">
+    <br>
+    <label for="time">Time:</label>
+    <input style="margin-bottom: 10px;" type="time" id="time" name="time">
+    <br>
+    <label for="guests">Number of guests:</label>
+    <input style="margin-bottom: 10px;" type="number" id="guests" name="guests" min="1" max="20">
+    <br>
+    <button type="submit">Đặt chỗ</button>
+</div>
+<div style="font-size: 20px;">
+    <h2>Car Purchase Form</h2>
+<form action="">
+    <label for="name">Name:</label>
+    <input style="margin-bottom: 10px;" type="text" id="name" name="name">
+    <br>
+    <label for="email">Email:</label>
+    <input style="margin-bottom: 10px;" type="email" id="email" name="email">
+    <br>
+    <label for="phone">Phone:</label>
+    <input style="margin-bottom: 10px;" type="tel" id="phone" name="phone">
+    <br>
+    <label for="car">Choose a car:</label>
+    <select id="car" name="car">
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+        <option value="ford">Ford</option>
+    </select>
+    <br>
+        <label for="color">Choose a color:</label>
+    <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+    </select>
+    <br>
+    <label for ="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10">
+    <br>
+    <label for ="delivery-date">Delivery date:</label>
+    <input type="date" id="delivery-date" name="delivery-date">
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
