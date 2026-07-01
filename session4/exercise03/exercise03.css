@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+label{ 
+    margin-left: 50px;
+}
+input{
+    margin-left: 50px;
+    width: 500px;
+    height: 30px;
+}    
+textarea{
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;   
+}
+button{
+    margin-left: 50px;
+    width: 500px;
+    height: 20px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 5px;
+}

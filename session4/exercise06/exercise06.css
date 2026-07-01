@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+}
+
+.card {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgb(245, 236, 193);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ⭐ Hiệu ứng hover */
+.btn:hover {
+    background-color: green;
+    color: white;
+}
